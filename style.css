@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 355px;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media (max-width: 1330px) {
+   .wrapper {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+}
